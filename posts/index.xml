@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on ultimatesicko&#39;s Shitty Website</title>
+    <link>https://ultimatesicko.github.io/posts/</link>
+    <description>Recent content in Posts on ultimatesicko&#39;s Shitty Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Aug 2021 22:48:50 +0530</lastBuildDate><atom:link href="https://ultimatesicko.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tentacle</title>
+      <link>https://ultimatesicko.github.io/posts/tentacle/</link>
+      <pubDate>Tue, 03 Aug 2021 22:48:50 +0530</pubDate>
+      
+      <guid>https://ultimatesicko.github.io/posts/tentacle/</guid>
+      <description>Initial Enumeration Rustscan results- A quick google search about the open ports leads to the following information-
+ Port 53 - DNS(Domain Name System) Port 88 - kerberos-sec Port 3128 - Squid Proxy  Squid Proxy Enumeration On curling 10.10.10.224:3128, we get mailto:j.nakazawa@realcorp.htb  We also got a subdomain from the curl I went ahead and added both to my /etc/hosts file.
+Kerberos Enumeration Tried brute-forcing credentials using kerbrute but couldn&amp;rsquo;t find anything.</description>
+    </item>
+    
+  </channel>
+</rss>
